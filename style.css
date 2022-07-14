@@ -1,0 +1,53 @@
+a{
+color:black;
+text-decoration: none;
+
+}
+h1 {
+  text-decoration: none;
+  text-align: center;
+  border-bottom:5px solid rebeccapurple;
+  margin:0px;
+  padding:20px;
+}
+
+#grid ul {
+  border-right: 5px solid rebeccapurple;
+  width:100px;
+  padding:11px;
+  margin:0px
+}
+
+body{
+  margin:0px;
+}
+
+#grid{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+}
+
+#grid #article{
+  padding:10px;
+}
+
+li{
+  font-size: 20px;
+}
+
+@media(max-width:750px){
+  #grid{
+    display: block;
+  }
+  #grid ul {
+      border-right:none;
+
+}
+  li{
+    display:none;
+  }
+  img{
+    width: 400px;
+
+  }
+}
