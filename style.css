@@ -51,3 +51,11 @@ li{
 
   }
 }
+
+.navbar-nav{
+  display:none;
+}
+
+.show{
+  display:block;
+}
